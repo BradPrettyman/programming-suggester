@@ -41,3 +41,6 @@ $(document).ready(function() {
     if (wish === "money" && color === "blue"|| car === "mustang" && season === "winter") {
       $("#ruby").fadeIn();
       $(".rubypic").fadeIn();
+    } else if (wish === "peace" && color === "black") {
+      $("#csharp").fadeIn();
+      $(".csharppic").fadeIn();
