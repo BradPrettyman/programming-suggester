@@ -7,78 +7,94 @@
   <script src="js/scripts.js"></script>
   <title>Programming Language Suggester</title>
 </head>
-<div class="container">
-  <h1>Which programming language fits you?</h1>
-  <p>Ever wonder which programming language is best for you? This application will suggest the best programming language based on your interests! Enter information below that best fits who you are to generate which programming laguage would be the best choice if you pursue a career in coding!</p>
-  <button type="click" class="btn-begin">Let's begin!</button>
-  <img class="intropic" src="img/background.jpg" alt="picture of ones and zeros">
-  <div class="row">
-  <div class="col-6">
-    <form id="group1">
-      <label for="quest1">What is your favorite color?</label>
-      <select class="form-control" id="color">
-        <option>Pick a Color</option>
-        <option value="blue">Blue</option>
-        <option value="red">Red</option>
-        <option value="black">Black</option>
-        <option value="purple">Purple</option>
-        <option value="green">Green</option>
-      </select>
-    </form>
-    <button type="click" class="btn-next1">Next question!</button>
+<body>
+  <div class="container">
+    <h1>Which programming language fits you?</h1>
+    <p>Ever wonder which programming language is best for you? This application will suggest the best programming language based on your interests! Enter information below that best fits who you are to generate which programming laguage would be the best choice if you pursue a career in coding!</p>
+    <button type="click" class="btn-begin">Let's begin!</button>
+    <img class="intropic" src="img/background.jpg" alt="picture of ones and zeros">
+    <div class="row">
+      <div class="col-6">
+        <form id="group1">
+          <label for="quest1">What is your favorite color?</label>
+          <select class="form-control" id="color">
+            <option>Pick a Color</option>
+            <option value="blue">Blue</option>
+            <option value="red">Red</option>
+            <option value="black">Black</option>
+            <option value="purple">Purple</option>
+            <option value="green">Green</option>
+          </select>
+        </form>
+        <button type="click" class="btn-next1">Next question!</button>
+      </div>
+      <div class="col-6">
+        <form id="group2">
+          <label for="quest2">What is your favorite season?</label>
+          <select class="form-control" id="season">
+            <option>Pick a Season</option>
+            <option value="winter">Winter</option>
+            <option value="spring">Spring</option>
+            <option value="summer">Summer</option>
+            <option value="fall">Fall</option>
+          </select>
+        </form>
+        <button type="click" class="btn-next2">Next question!</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <form id="group3">
+          <label for="quest3">What car would you drive?</label>
+          <select class="form-control" id="car">
+            <option>Pick a Car</option>
+            <option value="prius">Prius</option>
+            <option value="mustang">Mustang</option>
+            <option value="audi">Audi</option>
+            <option value="corvette">Corvette</option>
+          </select>
+        </form>
+        <button type="click" class="btn-next3">Next question!</button>
+      </div>
+      <div class="col-6">
+        <form id="group4">
+          <label for="quest4">What is your favorite pass time activity?</label>
+          <select class="form-control" id="activity">
+            <option>Pick an Activity</option>
+            <option value="read">Read</option>
+            <option value="games">Play games</option>
+            <option value="exercise">Exercise</option>
+          </select>
+        </form>
+        <button type="click" class="btn-next4">Next question!</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-9">
+        <form id="group5">
+          <label for="quest5">Which of these would you wish for to have?</label>
+          <select class="form-control" id="wish">
+            <option>Choose a Wish</option>
+            <option value="money">Unlimited money</option>
+            <option value="peace">World peace</option>
+            <option value="immortality">Immortality</option>
+          </select>
+          <button type="submit" class="btn-next5">Show me my language!</button>
+        </form>
+      </div>
+    </div>
+    <div id="ruby">
+      <img class="rubypic" src="img/ruby.jpg" alt="picture of Ruby logo">
+      <p>The programming language that would best fit you is: <strong>Ruby!</strong> Ruby is a dynamic, open source programming language with a focus on simplicity and productivity. It has and elegant syntax that is natural to read and easy to write. For more information about Ruby click <a href="https://www.ruby-lang.org/en/">HERE.</a></p>
+    </div>
+    <div id="csharp">
+      <img class="csharppic" src="img/csharp.jpg" alt="picture of csharp logo">
+      <p>The programming language that would best fit you is: <strong>C#!</strong> C# is a general-purpose, modern and object-oriented programming language pronounced as “C sharp”. C# is a lot similar to Java syntactically and is easy for the users who have knowledge of C, C++ or Java. For more information about C# click <a href="https://www.geeksforgeeks.org/introduction-to-c-sharp/">HERE.</a></p>
+    </div>
+    <div id="python">
+      <img class="pythonpic" src="img/python.jpg" alt="picture of python logo">
+      <p>The programming language that would best fit you is: <strong>Python!</strong> Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. To learn more about Python click <a href="https://www.python.org/doc/essays/blurb/">HERE.</a></p>
+    </div>
   </div>
-  <div class="col-6">
-    <form id="group2">
-      <label for="quest2">What is your favorite season?</label>
-      <select class="form-control" id="season">
-        <option>Pick a Season</option>
-        <option value="winter">Winter</option>
-        <option value="spring">Spring</option>
-        <option value="summer">Summer</option>
-        <option value="fall">Fall</option>
-      </select>
-    </form>
-    <button type="click" class="btn-next2">Next question!</button>
-  </div>
-  </div>
-  <div class="row">
-  <div class="col-6">
-    <form id="group3">
-      <label for="quest3">What car would you drive?</label>
-      <select class="form-control" id="car">
-        <option>Pick a Car</option>
-        <option value="prius">Prius</option>
-        <option value="mustang">Mustang</option>
-        <option value="audi">Audi</option>
-        <option value="corvette">Corvette</option>
-      </select>
-    </form>
-    <button type="click" class="btn-next3">Next question!</button>
-  </div>
-  <div class="col-6">
-    <form id="group4">
-      <label for="quest4">What is your favorite pass time activity?</label>
-      <select class="form-control" id="activity">
-        <option>Pick an Activity</option>
-        <option value="read">Read</option>
-        <option value="games">Play games</option>
-        <option value="exercise">Exercise</option>
-      </select>
-    </form>
-    <button type="click" class="btn-next4">Next question!</button>
-  </div>
-  </div>
-  <div class="row">
-  <div class="col-9">
-    <form id="group5">
-      <label for="quest5">Which of these would you wish for to have?</label>
-      <select class="form-control" id="wish">
-        <option>Choose a Wish</option>
-        <option value="money">Unlimited money</option>
-        <option value="peace">World peace</option>
-        <option value="immortality">Immortality</option>
-      </select>
-      <button type="submit" class="btn-next5">Show me my language!</button>
-    </form>
-  </div>
-  </div>
+</body>
+</html>
