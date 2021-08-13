@@ -11,7 +11,7 @@ $(document).ready(function() {
     $(".btn-next2").fadeIn();
     $(".btn-next1").fadeOut();
   });
-  
+
   $(".btn-next2").click(function() {
     $("#group3").fadeIn();
     $(".btn-next3").fadeIn();
@@ -29,3 +29,15 @@ $(document).ready(function() {
     $(".btn-next5").fadeIn();
     $(".btn-next4").fadeOut();
   });
+
+  $("form#group1, form#group2, form#group3, form#group4, form#group5").submit(function(event) {
+    event.preventDefault();
+    const color = $("select#color").val();
+    const season = $("select#season").val();
+    const car = $("select#car").val();
+    const activity = $("select#activity").val();
+    const wish =$("select#wish").val();
+
+    if (wish === "money" && color === "blue"|| car === "mustang" && season === "winter") {
+      $("#ruby").fadeIn();
+      $(".rubypic").fadeIn();
