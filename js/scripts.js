@@ -44,3 +44,13 @@ $(document).ready(function() {
     } else if (wish === "peace" && color === "black") {
       $("#csharp").fadeIn();
       $(".csharppic").fadeIn();
+    } else {
+      $("#python").fadeIn();
+      $(".pythonpic").fadeIn();
+      $("#csharp").fadeOut();
+      $(".rubypic").fadeOut();
+    }
+
+    $("form#group1, form#group2, form#group3, form#group4, form#group5").fadeOut();
+  });
+});
