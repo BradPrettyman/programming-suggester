@@ -1,0 +1,40 @@
+
+#group1, #group2, #group3, #group4 {
+  font-size: larger;
+  display: none;
+  margin-top: 30px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+
+#group5 {
+  font-size: larger;
+  margin-left: 33%;
+  margin-top: 30px;
+  display: none;
+  font-weight: bolder;
+}
+
+#ruby, #csharp, #python {
+  display: none;
+}
+
+
+.intropic {
+  width: 55%;
+  padding-left: 40px;
+}
+.rubypic {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.csharppic {
+  width: 45%;
+  margin-left: 28%;
+}
+
+.pythonpic {
+  width: 50%;
+  margin-left: 25%;
+}
