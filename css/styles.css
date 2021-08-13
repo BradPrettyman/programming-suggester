@@ -1,3 +1,7 @@
+body {
+  background-color:rgba(155, 149, 156, 0.808);
+  font-family:monospace;
+}
 
 #group1, #group2, #group3, #group4 {
   font-size: larger;
@@ -17,6 +21,62 @@
 
 #ruby, #csharp, #python {
   display: none;
+}
+
+select option {
+  margin: 40px;
+  background: cyan;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  font-size: larger;
+}
+
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  background-color: cyan;
+  padding: 20px;
+}
+p {
+  width: 60%;
+  padding: 15px;
+  margin: 20px;
+  margin-left: 20%;
+  text-align: justify;
+  font-size:x-large;
+  border: 8px double cyan;
+}
+
+.btn-begin {
+  width: 20%;
+  margin-top: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 8px double cyan;
+}
+
+.btn-next1, .btn-next2, .btn-next3, .btn-next4 {
+  display: none;
+  width: 50%;
+  margin: 10px;
+  position: relative;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 8px double cyan;
+}
+
+.btn-next5 {
+  width: 50%;
+  margin-top: 30px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 8px double cyan;
 }
 
 
